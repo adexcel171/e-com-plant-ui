@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navlist {
+    display: flex;
+    
+    
+}
+.navitem{
+    list-style-type: none;
+    padding: 52px 45px;
+}

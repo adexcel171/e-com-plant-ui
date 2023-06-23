@@ -1,0 +1,114 @@
+
+.container{
+width: 1200px;
+height: 512px;
+background: #C1DCDC;
+border-radius: 24px;
+margin: 0 20px;
+
+position: relative;
+}
+.col{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 512px;
+height: 227px;
+padding: 45px;
+
+}
+.title{
+    width: 512px;
+height: 128px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 64px;
+/* or 100% */
+
+
+color: #000000;
+
+}
+.hero_p{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+width: 318px;
+height: 75px;
+
+}
+.hero_p{
+    width: 122px;
+height: 27px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+/* Color 2 */
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.search_area{
+    position: relative;
+    width: 449px;
+    height: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.icon{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 407px;
+top: 22px;
+}
+
+.col2{
+    position: absolute;
+width: 411px;
+height: 513.98px;
+left: 781px;
+top: 18px;
+
+}
+.rectangle{
+    width: 450px;
+height: 400px;
+left: 726px;
+top: 123px;
+z-index: -3;
+
+/* Color 2 */
+
+background: #1E1E1E;
+border-radius: 200px 200px 0px 200px;
+
+}
